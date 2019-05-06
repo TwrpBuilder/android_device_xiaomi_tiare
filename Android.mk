@@ -20,5 +20,4 @@ LOCAL_PATH := device/xiaomi/tiare/
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 include $(CLEAR_VARS)
-
 endif
