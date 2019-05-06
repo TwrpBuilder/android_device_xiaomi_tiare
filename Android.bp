@@ -1,3 +1,0 @@
-subdirs = [
-   "cryptfs_hw",
-]

@@ -32,12 +32,6 @@ BOARD_USES_MMCUTILS := true
 BOARD_SUPPRESS_EMMC_WIPE := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 
-# Crypto
-TW_INCLUDE_CRYPTO := true
-TW_INCLUDE_FBE := true
-TWRP_INCLUDE_LOGCAT := true
-TARGET_USES_LOGD := true
-
 include $(LOCAL_PATH)/kernel.mk
 include device/generic/twrpbuilder/BoardConfig32.mk
 
